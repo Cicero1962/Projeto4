@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: 'buble';
-    src: url("../_fonts/bubblegum-sans-regular.otf") format('Opentype');
+    src: url("../fonts/bubblegum-sans-regular.otf") format('Opentype');
 }
 body{
     background-color: #dddd;
@@ -21,7 +21,7 @@ header#cabecalho{
     height: 150px;
     padding-left: 5px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.34);
-    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 90px;
+    background: url("../imagens/glass-logo-peq.jpg") no-repeat 0px 90px;
     position: relative;
 }
 header#cabecalho h1{
