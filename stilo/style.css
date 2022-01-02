@@ -1,0 +1,243 @@
+
+@font-face {
+    font-family: 'buble';
+    src: url("../_fonts/bubblegum-sans-regular.otf") format('Opentype');
+}
+body{
+    background-color: #dddd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div#container{
+    display: block;
+    width: 100%;
+    max-width: 1000px;
+    background-color: white;
+    margin: -8px auto  0px auto;
+    padding: 10px;
+}
+header#cabecalho{
+    display: block;
+    width: 100%;
+    height: 150px;
+    padding-left: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.34);
+    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 90px;
+    position: relative;
+}
+header#cabecalho h1{
+    margin-top: 0;
+    margin-bottom: 0px;
+    font-family: 'buble';
+    color: rgba(0, 0, 0, 0.666);
+}
+header#cabecalho h2{
+    margin-top: 0px;
+    color: rgba(0, 0, 0, 0.34);
+    font-weight: normal;
+}
+img#icone{
+    position: absolute;
+    bottom: -30px;
+    right: -30px;
+}
+figure#foto-legenda img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.299);
+}
+figure#foto-legenda{
+    position: relative;
+}
+figure#foto-legenda figcaption{
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgb(0 0 0 / 4%);
+    width: 100%;
+    height: 100%;
+    color: white;
+    padding: 10px;
+}
+figure#foto-legenda :hover{
+    opacity: 1;
+    transition: 1s;
+}
+nav#menu{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -10px;
+    margin-right: 5px;
+}
+nav#menu a{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.34);
+    color: black;
+    padding: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: .85em;
+}
+nav#menu a:hover{
+    background-color: #606060;
+    color: white;
+}
+main#interface{
+    display: block;
+    background-color: white;
+    box-sizing: border-box;
+}
+section#corpo{
+    display: block;
+    top: 0px;
+    padding-left: 5px;
+    padding-right: 10px;
+    width: 65%;
+    float: left;
+    border-right: 1px solid rgba(0, 0, 0, 0.34);
+    box-sizing: border-box;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.34);
+}
+div.video{
+    background-color: #dddddd;
+    margin: 0px 0px 20px -0px;
+    position: relative;
+    padding-bottom: 54%;
+    box-sizing: border-box;
+}
+div.video iframe{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 103%;
+}
+h3{
+    text-align: right;
+    font-style: italic;
+    font-size: .8em;
+    color: rgba(0, 0, 0, 0.619);
+    margin-bottom: 30px;
+}
+.text-paragrafo{
+    text-align: justify;
+    text-indent: 20px;
+}
+.text-legenda{
+    font-family: 'buble',cursive;
+    margin-bottom: -25px;
+    font-size: 1.6em;
+    word-spacing: 3px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.666);
+}
+.text-link{
+    background-color: #dddddd;
+    color: rgba(255, 0, 0, 0.381);
+    font-weight: bold;
+    text-decoration: none;
+}
+.text-link:hover{
+    background-color: #606060;
+    color: white;
+}
+.text-especial{
+    background-color: #dddddd;
+    color: rgba(0, 0, 0, 0.619);
+    padding: 5px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.19);
+}
+.text-detalhe{
+    color: rgba(0, 0, 0, 0.265);
+    font-size: .9em;
+}
+.text-destaque span{
+    font-size: .6em;
+    margin-top: 0px;
+    color: rgba(0, 0, 0, 0.265);
+}
+.text-negrito{
+    font-weight: bold;
+    background-color: #dddddd;
+}
+table#tabela{
+    margin: 0px auto;
+    border-spacing: 0px;
+}
+table#tabela caption{
+    color: rgba(0, 0, 0, 0.34);
+    font-weight: bold;
+    font-size: 1.3em;
+}
+table#tabela caption span{
+    color: black;
+    font-size: .5em;
+    float: right;
+    margin-top: 10px;
+}
+table#tabela td{
+    border: 1px solid #606060;
+    padding: 10px;
+    vertical-align: middle;
+    text-align: center;
+}
+table#tabela td.ce{
+    background-color: #606060;
+    color: white;
+    text-align: right;
+    vertical-align: middle;
+    vertical-align: top;
+    font-weight: bold;
+}
+table#tabela td.cd{
+    background-color: rgba(0, 0, 0, 0.224);
+    text-align: left;
+}
+aside#lateral{
+    width: 34%;
+    float: right;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #dddddd;
+    margin-top: 10px;
+}
+.text-principal-lateral{
+    padding: 2px;
+    margin-top: 30px;
+    font-family: 'buble',cursive;
+    color: rgba(0, 0, 0, 0.496);
+}
+.text-lateral{
+    padding: 10px;
+    color: white;
+    background-color: #606060;
+    margin-bottom: 0px;
+}
+.text-lateral-dir{
+    color: white;
+    padding: 1px;
+    background-color: #606060;
+    font-weight: bold;
+
+}
+footer#rodape{
+    clear: both;
+    margin: 1px;
+    padding: 15px;
+    text-align: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.34);
+}
+footer#rodape p{
+    margin: 0px;
+    color: rgba(0, 0, 0, 0.775);
+}
+footer#rodape a{
+    color: rgba(0, 0, 0, 0.775);
+    text-decoration: none;
+}
+footer#rodape a:hover{
+    text-decoration: underline;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.571);
+    font-weight: bold;
+}

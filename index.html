@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Galss</title>
+    <link rel="stylesheet" href="stilo/style.css">
+</head>
+<script>
+    function mudaFoto(foto) {
+        document.getElementById("icone").src = foto;
+    }
+</script>
+
+<body>
+    <div id="container">
+        <header id="cabecalho">
+            <h1>Google Glass</h1>
+            <h2>A revolução do Google está chegando</h2>
+
+            <img id="icone" src="_imagens/glass-oculos-preto-peq.png" alt="Òculosculos Glass">
+            <nav id="menu">
+                <a onmousemove="mudaFoto('_imagens/home.png')"
+                    onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')" href="index.html"> Home</a>
+                <a onmousemove="mudaFoto('_imagens/especificacoes.png')"
+                    onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')" href="specs.html">Especificações</a>
+                <a onmousemove="mudaFoto('_imagens/fotos.png')"
+                    onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')" href="fotos.html">Fotos</a>
+                <a onmousemove="mudaFoto('_imagens/multimidia.png')"
+                    onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')" href="multimidia.html">Multimídia</a>
+                <a onmousemove="mudaFoto('_imagens/contato.png')"
+                    onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')" href="fale-conosco.html">Fale
+                    conosco</a>
+            </nav>
+        </header>
+        <main id="interface">
+            <section id="corpo">
+                <article id="noticia-principal">
+                    <header id="cabecalho-artigo">
+                        <div>
+                            <h2 class="text-detalhe">Tecnologia > Inovações</h2>
+                            <h1 class="text-legenda">Saiba tudo sobre o Google Glass</h1>
+                            <h2 class="text-destaque"><span>por Gustavo Guanabara</span></h2>
+                            <h3>Atualizado em 23/Abril/2013</h3>
+                        </div>
+                    </header>
+                </article>
+
+                <h2 class="text-especial">O que é</h2>
+                <p class="text-paragrafo">
+                    O <span class="text-negrito">Google Glass</span> é um acessório em forma de óculos que possibilita a interação
+                    dos usuários com diversos conteúdos em realidade aumentada. Também chamado de <a class="text-link" href="https://www.tecmundo.com.br/project-glass/25785-google-glass-saiba-tudo-sobre-os-oculos-da-google.htm">Project Glass</a>, oeletrônico é capaz de tirar fotos a partir de comandos de voz, enviar mensagens instantâneas e
+                    realizar vídeoconferências.Seu lançamento está previsto para 2014, e seu preço deve ser de US$ 1,5
+                    mil. Atualmente o <span class="text-negrito">Google Glass</span> encontra-se em fase de testes e já possui um vídeo totalmente gravado com o dispositivo. Alémdisso, a companhia de buscas registrou novas patentes anti-furto e de desbloqueio de tela para o acessório.
+                </p>
+
+                <figure id="foto-legenda">
+                    <img src="_imagens/glass-quadro-homem-mulher.jpg" alt="Quadro homem-mulher glass">
+                    <figcaption>
+                        <h2>Google Glass</h2>
+                        <p>Uma nova maneira de ver o mundo</p>
+                    </figcaption>
+                </figure>
+
+                <h2 class="text-especial">Data de lançamento</h2>
+                <p class="text-paragrafo">
+                    Não há uma data específica e oficial para o dispositivo ser lançado, ainda. Pode ser que ele esteja
+                    disponível em demonstrações a partir de 2013, mas seu lançamento para as lojas fica para, pelo
+                    menos, 2014.
+                </p>
+                <h2 class="text-especial">Especificações Técnicas</h2>
+                <table id="tabela">
+                    <caption>Tabela Técnica do Google Glass <span>Mar/2013</span></caption>
+
+                    <ul>
+                        <tr>
+                            <td class="ce">Tela</td>
+                            <td class="cd">Resolução equivalente a tela de 25"</td>
+                        </tr>
+                        <tr>
+                            <td class="ce" rowspan="2">Câmera</td>
+                            <td class="cd">5MP para fotos</td>
+                        </tr>
+                        <tr>
+                            <td class="cd">720p para vídeos</td>
+                        </tr>
+                        <tr>
+                            <td class="ce" rowspan="2">Conectividade</td>
+                            <td class="cd">Wi-Fi</td>
+                        <tr>
+                            <td class="cd">Bluetooth</td>
+                        </tr>
+                        <tr>
+                            <td class="ce">Memória Interna</td>
+                            <td class="cd"> 12GB</td>
+                        </tr>
+                    </ul>
+
+                </table>
+                <h2 class="text-especial">Como funciona</h2>
+                <p class="text-paragrafo">
+                    De acordo com fontes próximas do <span class="text-negrito">Google</span>, os óculos vão contar com uma
+                    pequena tela de LCD ou AMOLED na parte superior e em frente aos olhos do usuário. Com o uso de uma
+                    câmera e GPS, você pode se situar, assim como selecionar opções com o movimento da cabeça
+                </p>
+                <h2 class="text-especial">O que você pode fazer com o Google Glasses</h2>
+                <p class="text-paragrafo">
+                    O vídeo de divulgação do <span class="text-negrito">Google</span> mostra que você pode se transformar em uma espécie de
+                    “super-humano”,já que o aparelho pode indicar a quantos metros você está de seu destino, se o metrô
+                    está aberto oufechado, mostrar o clima, agenda e até mesmo permitir que você marque encontros apenas
+                    com comandos de voz.
+                </p>
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/5R1snVxGNVs"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </section>
+
+            <aside id="lateral">
+                <h1 class="text-principal-lateral">Outras Notícias</h1>
+                <h2 class="text-lateral">Vídeo mais recente</h2>
+
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/uh-liQDE3cM"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+
+                <h2 class="text-lateral">Novidades no Glass</h2>
+                <p class="text-paragrafo">O <span class="text-lateral-dir">Google</span> enfim revelou as especificações completas do <span class="text-lateral-dir">Google Glass</span>,e com ele uma surpresa ainda inédita no mercado: a gigante das buscas usará um sistema de áudio baseado na transdução por condução. Através das hastes dos óculos, o som será transmitido para o ouvido do
+                usuário por meio de microvibrações em determinados ossos de sua cabeça, sem usar nenhum tipo de alto-falante.
+                </p>
+                <p class="text-paragrafo">Além da surpresa do áudio, a tela montada a frente do olho do usuário também
+                    chamo atenção.Serão 640 x 360 pixels de resolução que, em proporção, equivaleria a um monitor de 25
+                    polegadas de alta definição colocado a 2,5 metros de distância do espectador.
+                </p>
+            </aside>
+        </main>
+
+        <footer id="rodape">
+            <p>
+                Copyright 2013 - by <a href="https://gustavoguanabara.github.io/" target="blank">Gustavo
+                    Guanabara</a><br>
+                <a href="http://www.facebook.com/cursosemvideo" target="blank">Facebook</a> | <a
+                    href="http://twitter.com/cursosemvideo" target="blank">Twitter</a>
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
